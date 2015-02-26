@@ -37,7 +37,7 @@ If you need your storage to persist, you can add the following to your settings.
 
     INMEMORYSTORAGE_PERSIST = True
 
-.. note::
+.. attention
 
     The persistance when using ``INMEMORYSTORAGE_PERSIST`` is still limited to
     the lifetime of the python process since all storage is done in-memory and
